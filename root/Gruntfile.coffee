@@ -3,13 +3,6 @@
 
 module.exports = (grunt) ->
 
-  grunt.loadNpmTasks "grunt-contrib-coffee"
-  grunt.loadNpmTasks 'grunt-contrib-watch'
-  grunt.loadNpmTasks 'grunt-contrib-jade'
-  grunt.loadNpmTasks 'grunt-contrib-stylus'
-  grunt.loadNpmTasks 'grunt-contrib-connect'
-  # grunt.loadNpmTasks 'grunt-reload'
-
   grunt.initConfig
     coffee:
       compile:
