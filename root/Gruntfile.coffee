@@ -17,7 +17,7 @@ module.exports = (grunt) ->
             debug: no
           pretty: yes
         files:
-          "page/index.html": "layout/index.jade"
+          "index.html": "layout/index.jade"
     stylus:
       compile:
         options: {}
